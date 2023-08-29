@@ -7,17 +7,21 @@ The provided dataset consists of a collection of 6862 images capturing various t
 ## Content
 
 The dataset is organized into 11 distinct classes, each representing a specific weather condition. The classes are as follows:
-- Dew
-- Fog/Smog
-- Frost
-- Glaze
-- Hail
-- Lightning
-- Rain
-- Rainbow
-- Rime
-- Sandstorm
-- Snow
+
+| Weather classes        | Meaning                                                |
+|-------------|--------------------------------------------------------|
+| Dew         | Moisture condenses on surfaces in the morning/evening. |
+| Fog/Smog    | Dense cloud near ground (fog) or polluted fog (smog).  |
+| Frost       | Ice crystals form on objects due to cold temperatures.|
+| Glaze       | Coating of ice from freezing rain on surfaces.        |
+| Hail        | Ice pellets fall during thunderstorms.               |
+| Lightning   | Electrical discharge, causes bright flash in storms.  |
+| Rain        | Liquid water falls from the sky in droplets.         |
+| Rainbow     | Colorful arc due to sunlight refracting through rain. |
+| Rime        | Frost formed by freezing mist or supercooled droplets.|
+| Sandstorm   | Strong winds blow sand and dust across the landscape.|
+| Snow        | Soft ice crystals fall, covering ground in white.    |
+
 
 Each class represents a different type of weather event, enabling the construction of a robust weather classification model. The images in the dataset have been labeled and categorized according to the corresponding weather conditions they depict.
 
